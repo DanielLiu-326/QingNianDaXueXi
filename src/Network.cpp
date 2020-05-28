@@ -47,6 +47,7 @@ void Network::urlFormat(std::string& url)
 std::string Network::getSourceCode(const std::string& url)
 {
     std::string sourceCode;
+    sourceCode.resize(10000);
     CURL *curl = curl_easy_init();
     if(!curl){throw NetworkException("Cannot initialize network component!");    }
     curl_easy_setopt(curl, CURLOPT_URL,url.c_str());
