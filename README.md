@@ -12,7 +12,7 @@ When input '1' you will see all the titles , the first(number is 0) title is the
 When input '2' will show all the titles
 
 ### refresh urls
-As we know, the program will fetch all links of each issue . sometimes you need refresh the urls you already know to make all linkes up to date or get new links (this will automatically run when program loaded)
+As we know, the program will fetch all links of each issue . sometimes you need to refresh the urls you already know to make all linkes up to date or get new links (this will automatically run when program loaded)
 
 # contact me
 qq: 2370161748;
